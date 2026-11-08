@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2026/10/24/20/57/20-57-30-450_1280.jpg);
+  background-size: cover;
+  color: white;
+}
+.topo {
+  margin-top: 0px;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2019/10/28/21/21/halloween-4585684_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 40px;
+  height: 490px;
+}
+.topo h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  padding-top: 100px;
+}
+.topo p {
+  padding-top: 30px;
+}
+
+.menu {
+  margin-top: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  word-spacing: 10px;
+  border: 1px groove black;
+  border-radius: 40px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+.conteudo {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+}
+th {
+  border: 1px solid white;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+td {
+  background-color: rgb(252, 251, 253);
+  color: black;
+}
+td,
+th {
+  font-size: 30px;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+hr {
+  border: 1px dotted white;
+}
+fieldset {
+  border: 1px solid white;
+}
+.rodape {
+  text-align: center;
+}
+
+textarea {
+  width: 400px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+.conteudo-começo {
+  text-align: center;
+  height: 300px;
+  padding-top: 40px;
+}
+.transicao {
+  padding: 40px;
+  background-color: black;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
