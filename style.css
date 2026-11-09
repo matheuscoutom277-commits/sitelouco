@@ -120,3 +120,111 @@ button {
   padding: 10px;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .topo {
+    height: auto;
+    padding: 24px 16px;
+  }
+
+  .topo h1 {
+    padding-top: clamp(56px, 15vw, 100px);
+    font-size: clamp(38px, 9vw, 60px);
+  }
+
+  .topo p {
+    padding-top: 16px;
+  }
+
+  .menu > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .menu a {
+    padding: 8px;
+    word-spacing: normal;
+  }
+
+  .menu img {
+    position: static;
+    float: none;
+    margin: 4px;
+  }
+
+  main {
+    padding: 0 12px;
+  }
+
+  .conteudo-começo {
+    height: auto;
+    padding: 32px 0;
+  }
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  th,
+  td {
+    padding: 4px;
+    font-size: clamp(14px, 2.8vw, 20px);
+    overflow-wrap: anywhere;
+  }
+
+  fieldset {
+    min-width: 0;
+    padding: 12px;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]),
+  select {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  figure {
+    margin: 1em 0;
+  }
+
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 5 / 3;
+  }
+
+  audio {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    padding: 8px;
+  }
+
+  .menu a {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
