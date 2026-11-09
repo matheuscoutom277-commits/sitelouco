@@ -25,7 +25,7 @@ body {
 }
 
 .menu {
-  margin-top: 25px;
+  margin-top: 0px;
   text-align: center;
   background-color: black;
   color: white;
@@ -37,6 +37,16 @@ body {
 .menu a {
   text-decoration: none;
   color: white;
+  padding: 10px;
+}
+.menu img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  float: right;
+  right: 10px;
+  bottom: 5px;
 }
 .menu a:hover {
   text-decoration: underline;
@@ -87,9 +97,11 @@ fieldset {
 
 textarea {
   width: 400px;
-  display: inline-block;
+  display: block;
   background-color: black;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 .conteudo-começo {
   text-align: center;
@@ -103,4 +115,8 @@ textarea {
 
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  padding: 10px;
+  margin-top: 10px;
 }
