@@ -53,39 +53,48 @@
         <h2>Como resolvo?</h2>
         <p id="pzao">
           No seu site, coloco formulários que permitem cadastro, tabelas de
-          preços, compras on-line <br />
+          clientes, compras on-line <br />
           ou atendimento automatizado por WhatsApp.
           <br />
-          <strong>Exemplo de tabela visível:</strong>
+          <strong>Exemplo de tabela de clientes:</strong>
         </p>
-        <table>
-          <thead>
-            <th>Nome</th>
-            <th>Habilidade</th>
-            <th>Experiência</th>
-            <th>Cobrança</th>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Matheus(eu)</th>
-              <td>10/10</td>
-              <td>1 Século</td>
-              <td>2$</td>
-            </tr>
-            <tr>
-              <th>Dev senior</th>
-              <td>10/10</td>
-              <td>10 anos</td>
-              <td>80$</td>
-            </tr>
-            <tr>
-              <th>dev junior</th>
-              <td>06/10</td>
-              <td>2 anos</td>
-              <td>200$</td>
-            </tr>
-          </tbody>
-        </table>
+        <div
+          class="tabela-responsiva"
+          role="region"
+          aria-label="Tabela de clientes"
+          tabindex="0"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Gmail</th>
+                <th scope="col">Celular</th>
+                <th scope="col">Fatura</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Matheus couto</th>
+                <td>matheus.coutom277@Gmail.com</td>
+                <td>1499849-6505</td>
+                <td>R$50,00</td>
+              </tr>
+              <tr>
+                <th scope="row">Nicolas Souza</th>
+                <td>nicolas.souza@gmail.com</td>
+                <td>1499765-8765</td>
+                <td>R$30,00</td>
+              </tr>
+              <tr>
+                <th scope="row">Caio Eduardo</th>
+                <td>caio.empresario@gmail.com</td>
+                <td>1199423-7683</td>
+                <td>R$:145,99</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <section class="conteudo">
