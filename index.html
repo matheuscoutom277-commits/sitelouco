@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site profissionalmente profissional</title>
+    <title>Matheus - Sites Maker</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="topo">
@@ -32,17 +38,25 @@
           />
         </div>
       </nav>
-      <h1>Olá mundo!</h1>
-      <p>eai mano, sou o melhor HTMLeiro do universo</p>
+      <h1>Sites Maker</h1>
+      <p>
+        Construo sites do 0 para
+        <span class="visibilidade">resolver problemas</span> de comércios, como
+        por exemplo atendimento demorado, pouca praticidade e pouca
+        visibilidade.
+      </p>
     </header>
     <div class="transicao"></div>
 
     <main>
       <section class="conteudo-começo">
-        <h2>O Quão bom sou em HTML?</h2>
-        <p>
-          Cara, vou fazer varias sections com diversos conteúdos pra tu ver que
-          eu sou brabo
+        <h2>Como resolvo?</h2>
+        <p id="pzao">
+          No seu site, coloco formulários que permitem cadastro, tabelas de
+          preços, compras on-line <br />
+          ou atendimento automatizado por WhatsApp.
+          <br />
+          <strong>Exemplo de tabela de preços:</strong>
         </p>
         <table>
           <thead>
@@ -76,7 +90,7 @@
 
       <section class="conteudo">
         <form action="">
-          <h2>Formulário para me exibir</h2>
+          <h2>Exemplo de formulário</h2>
 
           <h3>* Pessoal</h3>
           <label for="nome">Nome:</label>
@@ -101,20 +115,22 @@
           <input
             type="email"
             required
-            placeholder="Exemplo.lalala@gmail.com"
+            placeholder="Exemplo.exemplo2@gmail.com"
             id="email"
             name="gmail"
           />
           <h3>* Satisfação</h3>
-          <label for="sats">Classifique o site quanto ao seu nível:</label>
+          <label for="sats">Classifique o site:</label>
           <select required id="sats">
             <option value="very-bad">Muito ruim</option>
             <option value="bad">Ruim</option>
-            <option value="mid">Da pro gasto</option>
-            <option value="good">Bom</option>
-            <option value="very-good" selected>Extremamente bombom</option>
+            <option value="mid">Bom</option>
+            <option value="good">satisfatório</option>
+            <option value="very-good" selected>
+              Extremamente satisfatório
+            </option>
           </select>
-          <h3>A quem esse site pode ajudar?</h3>
+          <h3>A quem esse(a) comercio/loja pode ajudar?</h3>
 
           <label for="jovens">Jovens</label>
           <input type="checkbox" value="jovens" id="jovens" />
@@ -128,23 +144,18 @@
           <label for="kids">Crianças</label>
           <input type="checkbox" value="kids" id="kids" />
 
-          <label for="lixo">Beijamin netanyahu</label>
-          <input type="checkbox" value="lixo" id="lixo" />
-
           <h3>Achou o site útil?</h3>
 
-          <label for="opcao">Sim</label>
+          <label for="opcao">Sim, me ajudou.</label>
           <input type="radio" id="opcao" name="ok" />
-          <label for="opcao">Não</label>
-          <input type="radio" id="opcao" name="ok" />
-          <label for="opcao">Sla mlk vsfude</label>
+          <label for="opcao">Não, não me ajudou.</label>
           <input type="radio" id="opcao" name="ok" />
 
-          <h3>Se tiver alguma dúvida, não fale, por favor:</h3>
+          <h3>Se tiver alguma dúvida:</h3>
           <textarea
             name="duvida"
             id="duvida"
-            placeholder="Seu texto aqui (Não escreva, se tu escrever eu te bato)"
+            placeholder="Seu texto aqui"
             rows="20px"
           ></textarea>
           <button type="submit">Enviar</button>
@@ -154,18 +165,19 @@
       </section>
 
       <section class="conteudo">
-        <h2>Por que estou fazendo isso?</h2>
+        <h2>Por que construir seu site comigo?</h2>
         <p>
-          Não tenho literalmente nada pra fazer, é um domingo à tarde, e eu não
-          tenho amigos para sair.
+          Caso haja interesse, aqui está o link do meu portfólio. (Clique na
+          imagem.)
         </p>
         <figure>
-          <img
-            src="https://cdn.pixabay.com/photo/2023/01/05/04/02/cat-7698014_1280.png"
-            alt="eu chorandinho ai"
-            width="300"
-          />
-          <figcaption>Eu ai ó</figcaption>
+          <a href="https://www.linkedin.com/in/matheus-couto-53b62a326/"
+            ><img
+              src="Gemini_Generated_Image_ul8n2xul8n2xul8n.jpeg"
+              alt="portfólio"
+              width="300"
+          /></a>
+          <figcaption>Link do meu portfólio.</figcaption>
         </figure>
       </section>
 

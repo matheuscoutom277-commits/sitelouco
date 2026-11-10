@@ -1,14 +1,15 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://cdn.pixabay.com/photo/2026/10/24/20/57/20-57-30-450_1280.jpg);
+  background-image: url(body.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 }
 .topo {
   margin-top: 0px;
   text-align: center;
-  background-image: url(https://cdn.pixabay.com/photo/2019/10/28/21/21/halloween-4585684_1280.jpg);
+  background-image: url(plano\ de\ fundo.body.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -22,6 +23,11 @@ body {
 }
 .topo p {
   padding-top: 30px;
+  font-family: "Kanchenjunga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .menu {
@@ -55,7 +61,18 @@ body {
 .conteudo {
   text-align: center;
 }
-
+p {
+  font-family: "Kanchenjunga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+label {
+  font-family: "Kanchenjunga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
 table {
   margin-top: 10px;
   transition: 0.2s;
@@ -115,10 +132,36 @@ textarea {
 
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
 }
 button {
   padding: 10px;
   margin-top: 10px;
+}
+#pzao {
+  text-align: justify;
+}
+strong {
+  display: inline-block;
+  margin-top: 2%;
+}
+form {
+  margin-top: 15%;
+}
+.visibilidade {
+  background-color: orangered;
+  padding: 2px;
+  font-weight: bold;
+  border: black groove 3px;
+  border-radius: 5px;
+  color: black;
+  font-style: oblique;
+  text-decoration: underline;
+  transition: 0.3s;
+  display: inline-block;
+}
+.visibilidade:hover {
+  transform: translateY(-5px);
 }
 /* aqui começa as palhacada de responsividade*/
 @media (max-width: 768px) {
