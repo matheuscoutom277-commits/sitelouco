@@ -57,8 +57,7 @@ body {
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10px;
   transition: 0.2s;
   border: none;
   font-family: "Times New Roman", Times, serif;
@@ -104,9 +103,10 @@ textarea {
   margin-right: auto;
 }
 .conteudo-começo {
-  text-align: center;
+  text-align: justify;
   height: 300px;
   padding-top: 40px;
+  margin-left: 10%;
 }
 .transicao {
   padding: 40px;
@@ -120,7 +120,7 @@ button {
   padding: 10px;
   margin-top: 10px;
 }
-
+/* aqui começa as palhacada de responsividade*/
 @media (max-width: 768px) {
   .topo {
     height: auto;
