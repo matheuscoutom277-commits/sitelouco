@@ -1,9 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matheus - Sites Maker</title>
+    <meta
+      name="description"
+      content="Conheça o trabalho de Matheus Souza Couto na criação de sites para negócios. Veja como um site pode ampliar sua presença digital e entre em contato."
+    />
+    <meta name="author" content="Matheus Souza Couto" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#090909" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Sites Maker" />
+    <meta
+      property="og:title"
+      content="Sites Maker | Criação de sites para negócios"
+    />
+    <meta
+      property="og:description"
+      content="Criação de sites para negócios com foco em praticidade, atendimento e presença digital."
+    />
+    <title>Sites Maker | Criação de sites para negócios</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,34 +29,68 @@
       href="https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Matheus Souza Couto",
+        "description": "Criador de sites para negócios, com foco em praticidade, atendimento e presença digital.",
+        "knowsAbout": [
+          "Criação de sites",
+          "Desenvolvimento web",
+          "Presença digital"
+        ],
+        "sameAs": [
+          "https://github.com/matheuscoutom277-commits",
+          "https://www.linkedin.com/in/matheus-couto-53b62a326/",
+          "https://www.instagram.com/szcouto.15/"
+        ]
+      }
+    </script>
   </head>
   <body>
+    <a class="pular-conteudo" href="#conteudo-principal"
+      >Pular para o conteúdo</a
+    >
     <header class="topo">
-      <nav class="menu">
+      <nav class="menu" aria-label="Redes sociais e contato">
         <div>
-          <a href="https://github.com/matheuscoutom277-commits" target="_blank"
-            >Github</a
+          <a
+            href="https://github.com/matheuscoutom277-commits"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub (abre em nova aba)"
+            >GitHub</a
           >
           <a
             href="https://www.linkedin.com/in/matheus-couto-53b62a326/"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn (abre em nova aba)"
             >Linkedin</a
           >
           <a
             href="https://wa.me/5514998496505?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp (abre em nova aba)"
             >WhatsApp</a
           >
-          <a href="https://www.instagram.com/szcouto.15/" target="_blank"
+          <a
+            href="https://www.instagram.com/szcouto.15/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram (abre em nova aba)"
             >Instagram</a
           >
           <img
             src="https://cdn.pixabay.com/photo/2017/01/10/23/01/seo-1970475_1280.png"
-            alt="lupa de pesquisa"
+            alt=""
+            aria-hidden="true"
           />
         </div>
       </nav>
-      <h1>Sites Maker</h1>
+      <h1 id="titulo-principal">Sites Maker</h1>
       <p>
         Construo sites do 0 para
         <span class="visibilidade">resolver problemas</span> de comércios, como
@@ -46,17 +98,14 @@
         visibilidade.
       </p>
     </header>
-    <div class="transicao"></div>
+    <div class="transicao" aria-hidden="true"></div>
 
-    <main>
-      <section class="conteudo-começo">
-        <h2>Como resolvo?</h2>
+    <main id="conteudo-principal">
+      <section class="conteudo-começo" aria-labelledby="como-resolvo">
+        <h2 id="como-resolvo">Como resolvo?</h2>
         <p id="pzao">
-          No seu site, coloco formulários que permitem cadastro, tabelas de
-          clientes, compras on-line <br />
-          ou atendimento automatizado por WhatsApp.
-          <br />
-          <strong>Exemplo de tabela de clientes:</strong>
+          Um site pode incluir formulários para cadastro, tabelas de clientes,
+          compras on-line e atendimento automatizado por WhatsApp.
         </p>
         <div
           class="tabela-responsiva"
@@ -65,177 +114,177 @@
           tabindex="0"
         >
           <table>
+            <caption>
+              Exemplo demonstrativo — todos os dados abaixo são fictícios.
+            </caption>
             <thead>
               <tr>
                 <th scope="col">Nome</th>
-                <th scope="col">Gmail</th>
+                <th scope="col">E-mail</th>
                 <th scope="col">Celular</th>
                 <th scope="col">Fatura</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">Matheus couto</th>
-                <td>matheus.coutom277@Gmail.com</td>
-                <td>1499849-6505</td>
-                <td>R$50,00</td>
+                <th scope="row">Cliente fictício 01</th>
+                <td>cliente01@example.com</td>
+                <td>(00) 00000-0000</td>
+                <td>R$ 0,00</td>
               </tr>
               <tr>
-                <th scope="row">Nicolas Souza</th>
-                <td>nicolas.souza@gmail.com</td>
-                <td>1499765-8765</td>
-                <td>R$30,00</td>
+                <th scope="row">Cliente fictício 02</th>
+                <td>cliente02@example.com</td>
+                <td>(00) 00000-0000</td>
+                <td>R$ 0,00</td>
               </tr>
               <tr>
-                <th scope="row">Caio Eduardo</th>
-                <td>caio.empresario@gmail.com</td>
-                <td>1199423-7683</td>
-                <td>R$:145,99</td>
+                <th scope="row">Cliente fictício 03</th>
+                <td>cliente03@example.com</td>
+                <td>(00) 00000-0000</td>
+                <td>R$ 0,00</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
 
-      <section class="conteudo">
-        <form action="">
-          <h2>Exemplo de formulário</h2>
+      <section class="conteudo" aria-labelledby="form-titulo">
+        <form action="" method="post" aria-labelledby="form-titulo">
+          <h2 id="form-titulo">
+            Exemplo de formulário para conhecer seu negócio
+          </h2>
+          <p id="campos-obrigatorios">
+            Os campos com asterisco (*) são obrigatórios.
+          </p>
+          <p>
+            Demonstração: o envio por POST direciona os dados ao servidor deste
+            site; o processamento do formulário não está configurado.
+          </p>
 
-          <h3>* Pessoal</h3>
-          <label for="nome">Nome:</label>
-          <input
-            type="text"
-            placeholder="Nome Completo"
-            required
-            id="nome"
-            name="nome"
-          />
-          <label for="Idade">Idade:</label>
-          <input
-            type="number"
-            id="idade"
-            name="idade"
-            required
-            placeholder="Ex:24"
-            min="5"
-            max="100"
-          />
-          <label for="email">Gmail:</label>
-          <input
-            type="email"
-            required
-            placeholder="Exemplo.exemplo2@gmail.com"
-            id="email"
-            name="gmail"
-          />
-          <h3>* Satisfação</h3>
-          <label for="sats">Classifique o site:</label>
-          <select required id="sats">
-            <option value="very-bad">Muito ruim</option>
-            <option value="bad">Ruim</option>
-            <option value="mid">Bom</option>
-            <option value="good">satisfatório</option>
-            <option value="very-good" selected>
-              Extremamente satisfatório
-            </option>
-          </select>
-          <h3>A quem esse(a) comercio/loja pode ajudar?</h3>
+          <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome completo: *</label>
+            <input
+              type="text"
+              placeholder="Nome completo"
+              autocomplete="name"
+              required
+              id="nome"
+              name="nome"
+            />
+            <label for="telefone">Telefone: *</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              required
+              placeholder="Ex:(00) 00000-0000"
+            />
+            <label for="email">E-mail: *</label>
+            <input
+              type="email"
+              required
+              placeholder="voce@exemplo.com"
+              autocomplete="email"
+              id="email"
+              name="email"
+            />
+          </fieldset>
 
-          <label for="jovens">Jovens</label>
-          <input type="checkbox" value="jovens" id="jovens" />
+          <fieldset>
+            <legend>Satisfação</legend>
+            <label for="sats">Como você classificaria o site?</label>
+            <select required id="sats" name="satisfacao">
+              <option value="very-bad">Muito ruim</option>
+              <option value="bad">Ruim</option>
+              <option value="mid">Bom</option>
+              <option value="good">Satisfatório</option>
+              <option value="very-good" selected>
+                Extremamente satisfatório
+              </option>
+            </select>
+          </fieldset>
 
-          <label for="adultos">Adultos</label>
-          <input type="checkbox" value="adultos" id="adultos" />
+          <fieldset>
+            <legend>A quem este comércio ou loja pode ajudar?</legend>
+            <input type="checkbox" value="jovens" id="jovens" name="publico" />
+            <label for="jovens">Jovens</label>
+            <input
+              type="checkbox"
+              value="adultos"
+              id="adultos"
+              name="publico"
+            />
+            <label for="adultos">Adultos</label>
+            <input type="checkbox" value="idosos" id="idosos" name="publico" />
+            <label for="idosos">Idosos</label>
+            <input
+              type="checkbox"
+              value="criancas"
+              id="criancas"
+              name="publico"
+            />
+            <label for="criancas">Crianças</label>
+          </fieldset>
 
-          <label for="idosos">Idosos</label>
-          <input type="checkbox" value="idosos" id="idosos" />
+          <fieldset>
+            <legend>Você achou o site útil?</legend>
+            <input type="radio" id="util-sim" name="util" value="sim" />
+            <label for="util-sim">Sim, me ajudou.</label>
+            <input type="radio" id="util-nao" name="util" value="nao" />
+            <label for="util-nao">Não, não me ajudou.</label>
+          </fieldset>
 
-          <label for="kids">Crianças</label>
-          <input type="checkbox" value="kids" id="kids" />
-
-          <h3>Achou o site útil?</h3>
-
-          <label for="opcao">Sim, me ajudou.</label>
-          <input type="radio" id="opcao" name="ok" />
-          <label for="opcao">Não, não me ajudou.</label>
-          <input type="radio" id="opcao" name="ok" />
-
-          <h3>Se tiver alguma dúvida:</h3>
-          <textarea
-            name="duvida"
-            id="duvida"
-            placeholder="Seu texto aqui"
-            rows="20px"
-          ></textarea>
+          <div>
+            <label for="duvida">Se tiver alguma dúvida:</label>
+            <textarea
+              name="duvida"
+              id="duvida"
+              placeholder="Escreva sua dúvida aqui"
+              rows="6"
+            ></textarea>
+          </div>
           <button type="submit">Enviar</button>
-          <br />
-          <button type="reset">Refazer</button>
+          <button type="reset">Limpar formulário</button>
         </form>
       </section>
 
-      <section class="conteudo">
-        <h2>Por que construir seu site comigo?</h2>
+      <section class="conteudo" aria-labelledby="portfolio-titulo">
+        <h2 id="portfolio-titulo">Por que construir seu site comigo?</h2>
         <p>
-          Possuo alguns projetos já desenvolvidos, inclusive esse próprio site.
+          Já desenvolvi alguns projetos, inclusive este site.
           <br />
-          Caso haja interesse, aqui está o link do meu portfólio. (Clique na
-          imagem.)
+          Conheça meu portfólio pelo LinkedIn.
         </p>
         <figure>
-          <a href="https://www.linkedin.com/in/matheus-couto-53b62a326/"
+          <a
+            href="https://www.linkedin.com/in/matheus-couto-53b62a326/"
+            aria-label="Acessar o portfólio de Matheus Souza Couto no LinkedIn"
             ><img
               src="Gemini_Generated_Image_ul8n2xul8n2xul8n.jpeg"
-              alt="portfólio"
+              alt=""
               width="300"
           /></a>
           <figcaption>Link do meu portfólio.</figcaption>
         </figure>
       </section>
 
-      <section class="conteudo">
-        <h2>Então eu sou um Sad-boy tchola?</h2>
+      <section class="conteudo" aria-labelledby="importancia-titulo">
+        <h2 id="importancia-titulo">
+          Por que um site é importante para o seu negócio?
+        </h2>
         <p>
-          Jamais irmão. Não jogo lol, toco guitarra, e não saio espalhando pra
-          geral que bebo café sem açúcar.
+          Um site ajuda seu negócio a ser encontrado e conhecido por clientes
+          além da sua região.
         </p>
-        <h3>Por acaso um tchola ouve crioulo?</h3>
-        <iframe
-          width="500"
-          height="300"
-          src="https://www.youtube.com/embed/F_baCPBeWNk?list=RDE1nk8679-xU"
-          title="Criolo - Chuva Ácida (prod. Sala 70) / Ainda Há Tempo -  Faixa 2"
-          frameborder="0"
-          allow="
-            accelerometer;
-            autoplay;
-            clipboard-write;
-            encrypted-media;
-            gyroscope;
-            picture-in-picture;
-            web-share;
-            loop;
-          "
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </section>
-      <hr />
-      <section class="conteudo">
-        <h2>Álias, se liga na música que eu fiz ai mlk</h2>
-        <audio
-          type="audio/mp3"
-          src="musiquinha.mp3"
-          controls
-          autoplay
-          loop
-          muted
-        ></audio>
       </section>
     </main>
     <footer class="rodape">
-      <p>
-        Site nítidamente feito por mim, se pegar te dou copy right (não estou
-        brincando)
+      <p class="rodape-marca">Sites Maker</p>
+      <p class="rodape-copyright">
+        &copy; <time datetime="2026">2026</time> Matheus Souza Couto. Todos os
+        direitos reservados.
       </p>
     </footer>
   </body>

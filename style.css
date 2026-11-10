@@ -6,6 +6,23 @@ body {
   background-repeat: no-repeat;
   color: white;
 }
+.pular-conteudo {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  padding: 10px 14px;
+  transform: translateY(-150%);
+  background-color: white;
+  color: black;
+}
+.pular-conteudo:focus {
+  transform: translateY(0);
+}
+:focus-visible {
+  outline: 3px solid #ff7b45;
+  outline-offset: 3px;
+}
 .topo {
   margin-top: 0px;
   text-align: center;
@@ -83,6 +100,11 @@ table {
   table-layout: auto;
   font-family: "Times New Roman", Times, serif;
 }
+caption {
+  padding-bottom: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .tabela-responsiva {
   max-width: 100%;
   overflow-x: auto;
@@ -128,6 +150,22 @@ fieldset {
 }
 .rodape {
   text-align: center;
+  background-color: #090909;
+  border-top: 3px solid orangered;
+  padding: 24px 16px;
+}
+.rodape p {
+  margin: 0;
+}
+.rodape-marca {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.rodape-copyright {
+  margin: 8px 0 0;
+  color: #c7c7c7;
+  font-size: 14px;
 }
 
 textarea {
@@ -173,16 +211,16 @@ form {
   margin-top: 15%;
 }
 .visibilidade {
-  background-color: orangered;
+  display: inline-block;
   padding: 2px;
-  font-weight: bold;
   border: black groove 3px;
   border-radius: 5px;
+  background-color: orangered;
   color: black;
+  font-weight: bold;
   font-style: oblique;
   text-decoration: underline;
   transition: 0.3s;
-  display: inline-block;
 }
 .visibilidade:hover {
   transform: translateY(-5px);
@@ -288,5 +326,16 @@ form {
   .menu a {
     padding: 6px;
     font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
